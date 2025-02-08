@@ -71,13 +71,6 @@ random-user-card/
 - **Hover Effects:** The card slightly scales up on hover for a modern touch.
 - **Bordered Image:** The user’s image is enclosed in a bordered, rounded box to make it stand out.
 
-## Future Improvements
-
-- Add a refresh button to fetch new random user profiles.
-- Implement a dark mode toggle.
-- Allow saving and displaying multiple user profiles.
-
-
 ## Contact
 
 For any questions or suggestions, feel free to reach out!
