@@ -50,8 +50,7 @@ This will start the React development server, and the app will be accessible at 
 random-user-card/
 │-- public/
 │-- src/
-│   ├── components/
-│   │   ├── UserProfile.js  # Main component to fetch and display user data
+│   ├── UserProfile.js  # Main component to fetch and display user data
 │   ├── App.js  # Root component
 │   ├── index.js  # Renders the application
 │-- package.json  # Project dependencies
