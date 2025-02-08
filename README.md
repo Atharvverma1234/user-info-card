@@ -1,5 +1,5 @@
 
-# Random User Profile Card
+# User Profile Card
 
 ## Description
 
@@ -27,7 +27,7 @@ Ensure you have the following installed:
 
 ```sh
 git clone https://github.com/Atharvverma1234/user-info-card.git
-cd random-user-card
+cd user-info-card
 ````
 
 2. **Install Dependencies**
