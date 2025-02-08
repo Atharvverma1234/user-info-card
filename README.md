@@ -1,71 +1,87 @@
-# user-info-card
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Random User Profile Card
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is a React application that fetches and displays a user information profile from the [API provided](https://randomuser.me/api/?page=1&results=1&seed=abc). The profile is displayed in a beautifully designed card with an image, name, gender, and phone number.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Fetches user data dynamically from the Random User API.
+- Displays user profile with an attractive UI using Tailwind CSS.
+- Includes hover effect and slight scaling animation for enhanced user experience.
+- Responsive design for optimal viewing on different screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation and Setup Instructions
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ensure you have the following installed:
 
-### `npm run build`
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps to Run the Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+git clone https://github.com/Atharvverma1234/user-info-card.git
+cd random-user-card
+````
 
-### `npm run eject`
+2. **Install Dependencies**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Start the Development Server**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This will start the React development server, and the app will be accessible at `http://localhost:3000/`.
 
-## Learn More
+## File Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```plaintext
+random-user-card/
+│-- public/
+│-- src/
+│   ├── components/
+│   │   ├── UserProfile.js  # Main component to fetch and display user data
+│   ├── App.js  # Root component
+│   ├── index.js  # Renders the application
+│-- package.json  # Project dependencies
+│-- tailwind.config.js  # Tailwind CSS configuration
+│-- README.md  # Project documentation
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
 
-### Code Splitting
+- **React.js** - JavaScript library for building user interfaces
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **API provided** - Provides user data for the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Additional Enhancements
 
-### Analyzing the Bundle Size
+- **Gradient Background:** Enhances the visual appeal with a smooth gradient.
+- **Hover Effects:** The card slightly scales up on hover for a modern touch.
+- **Bordered Image:** The user’s image is enclosed in a bordered, rounded box to make it stand out.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Future Improvements
 
-### Making a Progressive Web App
+- Add a refresh button to fetch new random user profiles.
+- Implement a dark mode toggle.
+- Allow saving and displaying multiple user profiles.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For any questions or suggestions, feel free to reach out!
 
-### Deployment
+**Author:** Atharv Verma\
+**GitHub:** [Atharv Verma](https://github.com/Atharvverma1234)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
